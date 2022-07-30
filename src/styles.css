@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(../node_modules/bulma/css/bulma.css);
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+.app-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-flex-column-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app-btn {
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  font-family: "Open Sans", sans-serif !important;
+}

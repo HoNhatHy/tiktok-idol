@@ -1,0 +1,136 @@
+.body-container {
+  background-color: #fcc2d7;
+}
+
+.logo-box {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.logo-img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+}
+
+.title.is-3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 8px;
+  font-weight: 600;
+}
+
+.button-box {
+  padding: 20px 0;
+  column-gap: 10px;
+}
+
+.app-header-btn {
+  border-radius: 100px;
+  padding: 20px 23px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.big-button-box {
+  padding: 0 5px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.app-big-btn {
+  padding: 20px 23px;
+  border-radius: 10px;
+  background-color: #c2255c;
+  background-image: linear-gradient(135deg, #be4bdb 0%, #c2255c 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.ban-muon-tro-thanh-idol {
+  margin-bottom: 15px;
+}
+
+.subtitle.is-3 {
+  font-family: "Playfair Display", serif;
+  color: #000;
+}
+
+.ul {
+  padding-left: 30px;
+  list-style: disc;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.step-heading {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.step-description {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.step-img {
+  margin-bottom: 15px;
+}
+
+.notice-box {
+  padding: 15px;
+  background-image: linear-gradient(
+    135deg,
+    rgb(74, 234, 220) 0%,
+    rgb(151, 120, 209) 20%,
+    rgb(207, 42, 186) 40%,
+    rgb(238, 44, 130) 60%,
+    rgb(251, 105, 98) 80%,
+    rgb(254, 248, 76) 100%
+  );
+  color: #fff;
+}
+
+.notice-box strong {
+  color: #fff;
+}
+
+.notice-heading {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.notice-description {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+/* ---------------------
+        Queries
+--------------------- */
+.container {
+  max-width: 340px;
+  padding-bottom: 30px;
+}
